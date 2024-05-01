@@ -1,16 +1,16 @@
 import type {Metadata} from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
-import NavigationBar from "@/app/components/NavigationBar";
+import NavigationBar from "@/components/NavigationBar";
 
 const pretendard = localFont({
     src: [
         {
-            path: '/fonts/Pretendard/Pretendard-Regular.otf',
+            path: '../../public/assets/fonts/Pretendard/Pretendard-Regular.otf',
             weight: '400',
         },
         {
-            path: '/fonts/Pretendard/Pretendard-Bold.otf',
+            path: '../../public/assets/fonts/Pretendard/Pretendard-Bold.otf',
             weight: '700',
         },
     ],
