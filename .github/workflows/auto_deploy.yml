@@ -2,7 +2,7 @@ name: auto deploy 2024-finpal-frontend
 
 on:
   push:
-    branches: [_main]
+    branches: [main]
 
 jobs:
   build:
