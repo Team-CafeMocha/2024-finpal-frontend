@@ -20,6 +20,9 @@ const pretendard = localFont({
 export const metadata: Metadata = {
     title: "Finpal",
     description: "Chat with AI to manage your finances",
+    icons: {
+        icon: "/assets/finpal-icon.svg",
+    },
 };
 
 export default function RootLayout({
