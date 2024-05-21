@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7608de3e-5d00-4d6d-8e1f-db0e69699eb5" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/chat/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/chat/ChatItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/chat/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chat/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
   "keyToString": {
     "Application.FinPal.executor": "Run",
     "JavaScript Debug.finpal.executor": "Run",
+    "JavaScript 디버그.finpal.executor": "Run",
     "React Native.finpal.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +62,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/bmlee/Github/Capstone-cafemocha/2024-finpal-frontend/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/ijeonhui/Github/CafeMocha/2024-finpal-frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,7 +91,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
       </set>
     </attachedChunks>
   </component>
@@ -119,6 +116,9 @@
       <workItem from="1714542555698" duration="1368000" />
       <workItem from="1715061078970" duration="2400000" />
       <workItem from="1715064998536" duration="1000" />
+      <workItem from="1715609053513" duration="127000" />
+      <workItem from="1716267270765" duration="687000" />
+      <workItem from="1716295980357" duration="1801000" />
     </task>
     <servers />
   </component>

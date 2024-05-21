@@ -3,7 +3,7 @@
 import ChatItem from "@/components/chat/ChatItem";
 import UserChat from "@/components/chat/ChatItem";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 
 export default function ChatPage() {
     const [selectedChatId, setSelectedChatId] = useState<number | null>(null);
@@ -36,7 +36,7 @@ export default function ChatPage() {
     const send = async () => {
         setIsLoading(true);
         const res = await axios.post(`http://localhost:8000/chat/query`, {
-            chat_id: selectedChatId ?? +new Date(),
+            chat_id: selectedChatId ?? + new Date(),
             query,
         });
         setIsLoading(false);
@@ -89,12 +89,12 @@ export default function ChatPage() {
                         ))}
                     </div>
                 </div>
-                <div className="flex-1 relative">
-                    <div className="mx-auto max-w-screen-lg flex flex-col gap-5 max-h-[85vh] overflow-auto h-full">
+                <div className="flex flex-col flex-1 relative">
+                    <div className="mx-auto max-w-screen-lg flex-1 flex-col gap-5 max-h-[85vh] overflow-auto h-full">
                         {chatItemList.map((chatItem) => (
                             <div key={chatItem.id}>
-                                <ChatItem content={chatItem.query} type="me" />
-                                <ChatItem content={chatItem.answer} type="ai" />
+                                <ChatItem content={chatItem.query} type="me"/>
+                                <ChatItem content={chatItem.answer} type="ai"/>
                             </div>
                         ))}
                     </div>
@@ -114,7 +114,8 @@ export default function ChatPage() {
                         <button
                             onClick={send}
                             type="button"
-                            className="bg-[#7398e9] text-white py-2 px-4 rounded"
+                            disabled={query.length === 0}
+                            className="bg-[#7398e9] text-white py-2 px-4 rounded disabled:bg-[#ccc]"
                         >
                             전송
                         </button>
@@ -122,7 +123,8 @@ export default function ChatPage() {
                 </div>
             </div>
             {isLoading && (
-                <div className="fixed bg-[#0000006e] left-0 top-0 right-0 bottom-0 flex justify-center items-center w-full h-full">
+                <div
+                    className="fixed bg-[#0000006e] left-0 top-0 right-0 bottom-0 flex justify-center items-center w-full h-full">
                     <svg
                         aria-hidden="true"
                         className="w-14 h-14 animate-spin fill-[#2390f7] text-[#fff]"
