@@ -5,7 +5,7 @@ interface ChatItemProps {
 
 export default function ChatItem(props: ChatItemProps) {
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1 mb-4">
       <div className="flex gap-2 items-center">
         {props.type === "me" ? (
           <div className="bg-[#eee] rounded-full p-2">

@@ -36,7 +36,7 @@ export default function ChatPage() {
     const send = async () => {
         setIsLoading(true);
         const res = await axios.post(`http://localhost:8000/chat/query`, {
-            chat_id: selectedChatId ?? + new Date(),
+            chat_id: selectedChatId,
             query,
         });
         setIsLoading(false);
