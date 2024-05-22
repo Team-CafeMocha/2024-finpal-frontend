@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7608de3e-5d00-4d6d-8e1f-db0e69699eb5" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/chat/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/chat/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,30 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FinPal.executor": "Run",
-    "JavaScript Debug.finpal.executor": "Run",
-    "JavaScript 디버그.finpal.executor": "Run",
-    "React Native.finpal.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feat/chat",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bmlee/Github/Capstone-cafemocha/2024-finpal-frontend/src/components/chat",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/ijeonhui/Github/CafeMocha/2024-finpal-frontend/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FinPal.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.finpal.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript 디버그.finpal.executor&quot;: &quot;Run&quot;,
+    &quot;React Native.finpal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/chat&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bmlee/Github/Capstone-cafemocha/2024-finpal-frontend/src/components/chat&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ijeonhui/Github/CafeMocha/2024-finpal-frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/chat" />
@@ -117,7 +118,10 @@
       <workItem from="1715064998536" duration="1000" />
       <workItem from="1715609053513" duration="127000" />
       <workItem from="1716267270765" duration="687000" />
-      <workItem from="1716295980357" duration="2102000" />
+      <workItem from="1716295980357" duration="2509000" />
+      <workItem from="1716298677679" duration="243000" />
+      <workItem from="1716358800109" duration="2703000" />
+      <workItem from="1716362536268" duration="312000" />
     </task>
     <servers />
   </component>

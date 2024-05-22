@@ -76,7 +76,7 @@ export default function ChatPage() {
                         </div>
                     </div>
                     <div className="p-2">
-                        {chatList.map((chat) => (
+                        {chatList.filter((chat) => chat.queries.isEmpty === false ).map((chat) => (
                             <div
                                 className="px-4 py-2 cursor-pointer hover:bg-[#ddd] rounded"
                                 key={chat.id}
@@ -84,13 +84,13 @@ export default function ChatPage() {
                                     setSelectedChatId(chat.id);
                                 }}
                             >
-                                {chat.queries[0].query}
+                                {chat.queries[0]?.query}
                             </div>
                         ))}
                     </div>
                 </div>
-                <div className="flex flex-col flex-1 relative">
-                    <div className="mx-auto max-w-screen-lg flex-1 flex-col gap-5 max-h-[85vh] overflow-auto h-full">
+                <div className="flex flex-col flex-1 relative ml-6 mr-6">
+                    <div className="mx-auto w-full flex-1 flex-col gap-5 max-h-[85vh] overflow-auto h-full">
                         {chatItemList.map((chatItem) => (
                             <div key={chatItem.id}>
                                 <ChatItem content={chatItem.query} type="me"/>
