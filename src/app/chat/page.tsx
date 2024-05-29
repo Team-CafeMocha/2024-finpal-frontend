@@ -2,7 +2,7 @@
 
 import ChatItem from "@/components/chat/ChatItem";
 import UserChat from "@/components/chat/ChatItem";
-import axios from "axios";
+import axios, {AxiosResponse} from "axios";
 import {useEffect, useState} from "react";
 
 export default function ChatPage() {
@@ -10,7 +10,7 @@ export default function ChatPage() {
     const [chatList, setChatList] = useState<any[]>([]);
     const initChatList = async () => {
         const res = await axios.get("http://localhost:8000/chat/list");
-        setChatList(res.data.data);
+        setChatList(res.data.data.filter((value: AxiosResponse<any, any>) => value.queries.length > 0));
     };
 
     useEffect(() => {
@@ -76,7 +76,7 @@ export default function ChatPage() {
                         </div>
                     </div>
                     <div className="p-2">
-                        {chatList.filter((chat) => chat.queries.isEmpty === false ).map((chat) => (
+                        {chatList.map((chat) => (
                             <div
                                 className="px-4 py-2 cursor-pointer hover:bg-[#ddd] rounded"
                                 key={chat.id}
